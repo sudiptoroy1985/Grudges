@@ -1,0 +1,30 @@
+{
+  "name": "grudges",
+  "version": "1.0.0",
+  "description": "1. Identify 2 issues with the code. There could be others as well but we are primarily talking about 2. \n2. Refactor to solve issue 1 \n3. Refactor to solve issue 2\n4. Add Undo , Redo functionality\n",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "random-name": "0.1.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "4.0.0",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
